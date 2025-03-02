@@ -1,4 +1,4 @@
-# MonSter
+# 🚀 MonSter (CVPR 2025) 🚀
 MonSter: Marry Monodepth to Stereo Unleashes Power.
 [arXiv link](https://arxiv.org/abs/2501.08643)
 
