@@ -61,11 +61,11 @@ pip install gradio==4.29.0
 
 | Model      |                                               Link                                                |
 |:----:|:-------------------------------------------------------------------------------------------------:|
-| KITTI (one model for both 2012 and 2015)| [Download 🤗](https://huggingface.co/onnx-community/metric3d-vit-small) |
-| Middlebury | [Download 🤗](https://huggingface.co/onnx-community/metric3d-vit-large) |
-|ETH3D | [Download 🤗](https://huggingface.co/onnx-community/metric3d-vit-giant2) |
-|sceneflow | [Download 🤗](https://huggingface.co/onnx-community/metric3d-vit-giant2) |
-|mix_all (mix of all datasets) | [Download 🤗](https://huggingface.co/onnx-community/metric3d-vit-giant2) |
+| KITTI (one model for both 2012 and 2015)| [Download 🤗] |
+| Middlebury | [Download 🤗] |
+|ETH3D | [Download 🤗] |
+|sceneflow | [Download 🤗]|
+|mix_all (mix of all datasets) | [Download 🤗] |
 
 The mix_all model is trained on all the datasets mentioned above, which has the best performance on zero-shot generalization.
 
@@ -81,3 +81,47 @@ or use the model trained on all datasets, which is better for zero-shot generali
 ```Shell   
 python evaluate_stereo.py --restore_ckpt ./pretrained/mix_all.pth --dataset *(select one of ["eth3d", "kitti", "sceneflow", "vkitti", "driving"])
 ```
+
+## ✈️ Submission
+
+For MonSter submission to the KITTI benchmark, run
+```Shell
+python save_disp.py
+```
+
+For MonSter submission to the Middlebury benchmark, run
+```Shell
+python save_pfm.py
+```
+
+For MonSter submission to the ETH3D benchmark, run
+```Shell
+python save_pfm_eth.py
+```
+
+## ✈️ Training
+To train MonSter on Scene Flow or KITTI or ETH3D or Middlebury, run
+```Shell
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch train_kitti.py   (for KITTI)
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch train_eth3d.py   (for ETH3D)
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch train_sceneflow.py   (for Scene Flow)
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch train_middlebury.py   (for Middlebury)
+```
+
+## ✈️ Citation
+
+If you find our works useful in your research, please consider citing our papers:
+
+```bibtex
+
+@article{cheng2025monster,
+  title={MonSter: Marry Monodepth to Stereo Unleashes Power},
+  author={Cheng, Junda and Liu, Longliang and Xu, Gangwei and Wang, Xianqi and Zhang, Zhaoxing and Deng, Yong and Zang, Jinliang and Chen, Yurui and Cai, Zhipeng and Yang, Xin},
+  journal={arXiv preprint arXiv:2501.08643},
+  year={2025}
+}
+
+```
+# Acknowledgements
+
+This project is based on [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [GMStereo](https://github.com/autonomousvision/unimatch), and [IGEV](https://github.com/gangweiX/IGEV). We thank the original authors for their excellent works.
