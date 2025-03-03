@@ -13,7 +13,7 @@ Comparisons with state-of-the-art stereo methods across five of the most widely 
 ## :art: Zero-shot performance
 ![visualization1](media/vis1.png)
 Zero-shot generalization performance on the KITTI benchmark.
-![visualization2](media/vis2.png)
+![visualization2](media/vis2.pdf)
 Zero-shot generalization performance on our captured stereo images.
 
 ## ⚙️ Installation
