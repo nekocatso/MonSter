@@ -61,11 +61,11 @@ pip install gradio==4.29.0
 
 | Model      |                                               Link                                                |
 |:----:|:-------------------------------------------------------------------------------------------------:|
-| KITTI (one model for both 2012 and 2015)| [Download 🤗] |
-| Middlebury | [Download 🤗] |
-|ETH3D | [Download 🤗] |
-|sceneflow | [Download 🤗]|
-|mix_all (mix of all datasets) | [Download 🤗] |
+| KITTI (one model for both 2012 and 2015)| [Download 🤗] (https://huggingface.co/cjd24/MonSter/resolve/main/kitti.pth?download=true) |
+| Middlebury | [Download 🤗] (https://huggingface.co/cjd24/MonSter/resolve/main/middlebury.pth?download=true)|
+|ETH3D | [Download 🤗] (https://huggingface.co/cjd24/MonSter/resolve/main/eth3d.pth?download=true)|
+|sceneflow | [Download 🤗] (https://huggingface.co/cjd24/MonSter/resolve/main/sceneflow.pth?download=true)|
+|mix_all (mix of all datasets) | [Download 🤗] (https://huggingface.co/cjd24/MonSter/resolve/main/mix_all.pth?download=true)|
 
 The mix_all model is trained on all the datasets mentioned above, which has the best performance on zero-shot generalization.
 
