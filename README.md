@@ -14,7 +14,7 @@ Zero-shot generalization performance on the KITTI benchmark.
 video demo
 
 ## :art: Zero-shot performance on the wild captured stereo images
-![visualization2](media/vis2.pdf)
+![visualization2](media/vis2.png)
 Zero-shot generalization performance on our captured stereo images.
 
 ##  📝 Benchmarks performance
