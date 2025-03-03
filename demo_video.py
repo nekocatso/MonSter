@@ -102,11 +102,11 @@ def demo(args):
     std = [0.229, 0.224, 0.225]
     normalize = NormalizeTensor(mean, std)
 
-    videoWrite = cv2.VideoWriter('./ff11_sequence_04.mp4', cv2.VideoWriter_fourcc(*'mp4v'), 10, (1242, 750))
+    videoWrite = cv2.VideoWriter('./monster_demo.mp4', cv2.VideoWriter_fourcc(*'mp4v'), 10, (1241, 752))
 
     with torch.no_grad():
-        left_images = sorted(glob.glob(args.left_imgs, recursive=True))[:30]
-        right_images = sorted(glob.glob(args.right_imgs, recursive=True))[:30]
+        left_images = sorted(glob.glob(args.left_imgs, recursive=True))[:200]
+        right_images = sorted(glob.glob(args.right_imgs, recursive=True))[:200]
         print(f"Found {len(left_images)} images. Saving files to {output_directory}/")
 
         for (imfile1, imfile2) in tqdm(list(zip(left_images, right_images))):

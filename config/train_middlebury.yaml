@@ -1,16 +1,17 @@
 wandb: {}
 project_name: middlebury
 restore_ckpt: "./sceneflow.pth"
+# restore_ckpt: "/data2/cjd/mono_fusion/checkpoints/sceneflow.pth"
 logdir: './checkpoints/middlebury/'
 encoder: 'vitl'
 batch_size: 8
 train_datasets: ['middlebury_finetune']
-lr: 3e-5
+lr: 1e-4
 wdecay: 1e-5
 total_step: 100000
-save_frequency: 2000
+save_frequency: 20
 save_path: './checkpoints/middlebury/'
-val_frequency: 2000
+val_frequency: 20
 image_size: [352, 896]
 train_iters: 20
 valid_iters: 32

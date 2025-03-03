@@ -1,13 +1,13 @@
 wandb: {}
 project_name: sceneflow
-restore_ckpt: ""
+restore_ckpt: None
 logdir: './checkpoints/sceneflow/'
 encoder: 'vitl'
 batch_size: 12
 train_datasets: ['sceneflow']
-lr: 2e-5
+lr: 1e-4
 wdecay: 1e-5
-total_step: 100000
+total_step: 250000
 save_frequency: 5000
 save_path: ./checkpoints/sceneflow/
 val_frequency: 5000

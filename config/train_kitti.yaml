@@ -1,11 +1,12 @@
 wandb: {}
 project_name: kitti
 restore_ckpt: "./sceneflow.pth"
+# restore_ckpt: "/data2/cjd/mono_fusion/checkpoints/sceneflow.pth"
 logdir: './checkpoints/kitti/'
 encoder: 'vitl'
 batch_size: 12
 train_datasets: ['kitti']
-lr: 3e-5
+lr: 1e-4
 wdecay: 1e-5
 total_step: 50000
 save_frequency: 2000
