@@ -1,7 +1,7 @@
 from __future__ import print_function, division
 import sys
 sys.path.append('core')
-
+import os
 import argparse
 import time
 import logging
