@@ -1,5 +1,4 @@
 # 🚀 MonSter (CVPR 2025 Highlight) 🚀
-**Official PyTorch implementation of MonSter**   
 
 <p align="center">
   <a href="README.md"><img src="https://img.shields.io/badge/English-white" alt='English'></a>
