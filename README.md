@@ -1,5 +1,25 @@
 # 🚀 MonSter (CVPR 2025 Highlight) 🚀
 **Official PyTorch implementation of MonSter**   
+
+<p align="center">
+  <a href="README.md"><img src="https://img.shields.io/badge/English-white" alt='English'></a>
+  <a href="README.zh-CN-simplified.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-white" alt='Chinese'></a>
+</p>
+
+<h2 align="center">MonSter: Marry Monodepth to Stereo Unleashes Power</h2>
+
+
+<div align="center">
+	<a href="[https://www.youtube.com/embed/FU_MJLD8LeY](https://www.youtube.com/watch?v=u-UhFMGmXro)">
+		<img src="media/video.png" width="50%" alt="Overview Video">
+	</a>
+</div>
+<p></p>
+
+<div align="center">
+
+</div>
+
 [MonSter: Marry Monodepth to Stereo Unleashes Power](https://arxiv.org/abs/2501.08643) <br/>
 Junda Cheng, Longliang Liu, Gangwei Xu, Xianqi Wang, Zhaoxing Zhang, Yong Deng, Jinliang Zang, Yurui Chen, Zhipeng Cai, Xin Yang <br/>
 
