@@ -2,6 +2,7 @@
 
 <p align="center">
 </p>
+<h2 align="center">Demo Video</h2>
 <div align="center">
 	<a href="https://www.youtube.com/watch?v=u-UhFMGmXro">
 		<img src="media/video.png" width="50%" alt="Overview Video">
