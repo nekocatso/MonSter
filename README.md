@@ -12,7 +12,6 @@
 
 <div align="center">
 
-</p>
 </div>
 [MonSter: Marry Monodepth to Stereo Unleashes Power](https://arxiv.org/abs/2501.08643) <br/>
 Junda Cheng, Longliang Liu, Gangwei Xu, Xianqi Wang, Zhaoxing Zhang, Yong Deng, Jinliang Zang, Yurui Chen, Zhipeng Cai, Xin Yang <br/>
