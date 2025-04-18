@@ -1,8 +1,6 @@
 # 🚀 MonSter (CVPR 2025 Highlight) 🚀
 
 <p align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/English-white" alt='English'></a>
-  <a href="README.zh-CN-simplified.md"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-white" alt='Chinese'></a>
 </p>
 
 <h2 align="center">MonSter: Marry Monodepth to Stereo Unleashes Power</h2>
