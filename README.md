@@ -13,7 +13,7 @@
 <div align="center">
 
 </div>
-[MonSter: Marry Monodepth to Stereo Unleashes Power](https://arxiv.org/abs/2501.08643) <br/>
+[MonSter: Marry Monodepth to Stereo Unleashes Power]<a href="https://arxiv.org/abs/2501.08643"><img src="https://img.shields.io/badge/arXiv-2402.11095-b31b1b?logo=arxiv" alt='arxiv'></a>
 Junda Cheng, Longliang Liu, Gangwei Xu, Xianqi Wang, Zhaoxing Zhang, Yong Deng, Jinliang Zang, Yurui Chen, Zhipeng Cai, Xin Yang <br/>
 
 ##  🌼 Abstract
