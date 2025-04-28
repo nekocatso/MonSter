@@ -62,7 +62,11 @@ def demo(args):
     if 'state_dict' in checkpoint.keys():
         checkpoint = checkpoint['state_dict']
     for key in checkpoint:
-        ckpt['module.' + key] = checkpoint[key]
+        # ckpt['module.' + key] = checkpoint[key]
+        if key.startswith("module."):
+            ckpt[key] = checkpoint[key]  # 保持原样
+        else:
+            ckpt["module." + key] = checkpoint[key]  # 添加 "module."
 
     model.load_state_dict(ckpt, strict=True)
 
