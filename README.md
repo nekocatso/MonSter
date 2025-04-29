@@ -28,7 +28,7 @@ MonSter is an innovative approach that effectively harnesses the complementary s
 
 ## 🌈: Zero-shot performance on KITTI
 ![visualization1](media/vis1.png)
-Zero-shot generalization performance on the KITTI benchmark.
+Zero-shot generalization performance on KITTI benchmark.
 
 <img src="media/kitti.gif" width="1241" height="752">  
 video demo
