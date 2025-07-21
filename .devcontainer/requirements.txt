@@ -1,0 +1,38 @@
+# Core ML and vision libraries
+tqdm
+scipy
+opencv-python
+scikit-image
+tensorboard
+matplotlib
+timm==0.6.13
+accelerate==1.0.1
+
+# Gradio for demos
+gradio_imageslider
+gradio==4.29.0
+
+# Configuration and experiment management
+hydra-core
+omegaconf
+wandb
+
+# Image processing
+pillow
+imageio
+imageio-ffmpeg
+numpy
+pandas
+
+# Development and jupyter
+jupyter
+jupyterlab
+notebook
+ipykernel
+seaborn
+
+# Code quality
+flake8
+black
+isort
+pytest
